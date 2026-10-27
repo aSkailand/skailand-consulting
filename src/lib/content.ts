@@ -108,7 +108,7 @@ const no: Dictionary = {
       },
       {
         title: "Ytelse og tilgjengelighet",
-        text: "Raske sider som følger WCAG, med gode Core Web Vitals. Bra for brukerne – og for Google.",
+        text: "Raske sider som fungerer for alle, også med skjermleser eller dårlig nettforbindelse. Bra for brukerne – og for synligheten i søkemotorer.",
       },
       {
         title: "SEO og synlighet",
@@ -255,7 +255,7 @@ const en: Dictionary = {
       },
       {
         title: "Performance and accessibility",
-        text: "Fast pages that follow WCAG, with strong Core Web Vitals. Good for users – and for Google.",
+        text: "Fast pages that work for everyone, including screen-reader users and slow connections. Good for users – and for your visibility in search engines.",
       },
       {
         title: "SEO and visibility",
