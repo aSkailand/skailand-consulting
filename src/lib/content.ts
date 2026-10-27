@@ -82,7 +82,7 @@ const no: Dictionary = {
   nav: {
     services: "Tjenester",
     work: "Arbeid",
-    about: "Om meg",
+    about: "Om oss",
     contact: "Kontakt",
     label: "Hovednavigasjon",
     switchTo: "English",
@@ -90,9 +90,9 @@ const no: Dictionary = {
   hero: {
     eyebrow: "Nettsider · Utvikling · Digitalt håndverk",
     title: "Digitale opplevelser, bygget med omtanke.",
-    text: "Skailand Consulting lager raske, tilgjengelige og godt synlige nettsider for bedrifter som vil bli funnet og få henvendelser. Jeg er frontend-utvikler og følger deg fra idé til lansering – og videre.",
+    text: "Skailand Consulting lager raske, tilgjengelige og godt synlige nettsider for bedrifter som vil bli funnet og få henvendelser. Skailand Consulting følger deg fra idé til lansering – og videre.",
     cta: "La oss snakke",
-    secondary: "Se arbeidet mitt",
+    secondary: "Se arbeidet vårt",
     illustration:
       "Gravert landskapsillustrasjon av norske fjell, fjord og granskog med tynne nettverkslinjer.",
   },
@@ -100,7 +100,7 @@ const no: Dictionary = {
     eyebrow: "Tjenester",
     title: "Alt du trenger for en nettside som fungerer.",
     intro:
-      "Fra første skisse til drift. Jeg bygger det jeg selv ville vært stolt av å eie: lettvint for besøkende, enkelt for deg å vedlikeholde.",
+      "Fra første skisse til drift. Løsninger bygget for å vare: lettvinte for besøkende, enkle for deg å vedlikeholde.",
     items: [
       {
         title: "Nettsider og nettbutikk",
@@ -116,13 +116,13 @@ const no: Dictionary = {
       },
       {
         title: "Rådgivning og frontend-hjelp",
-        text: "Trenger teamet ditt en senior frontend-utvikler? Jeg tar oppdrag innen React, TypeScript og webarkitektur.",
+        text: "Trenger teamet ditt en senior frontend-utvikler? Skailand Consulting tar oppdrag innen React, TypeScript og webarkitektur.",
       },
     ],
   },
   work: {
     eyebrow: "Utvalgt arbeid",
-    title: "Nettsider jeg har laget.",
+    title: "Nettsider levert av Skailand Consulting.",
     intro: "Et utvalg av prosjekter for kunder og egne initiativ.",
     visit: "Besøk nettstedet",
     items: [
@@ -157,7 +157,7 @@ const no: Dictionary = {
     ],
   },
   process: {
-    eyebrow: "Slik jobber jeg",
+    eyebrow: "Slik jobber vi",
     title: "Enkelt, tydelig og uten overraskelser.",
     steps: [
       {
@@ -170,7 +170,7 @@ const no: Dictionary = {
       },
       {
         title: "Lansering",
-        text: "Jeg tar hånd om domene, hosting og alt det tekniske.",
+        text: "Skailand Consulting tar hånd om domene, hosting og alt det tekniske.",
       },
       {
         title: "Videre støtte",
@@ -179,11 +179,11 @@ const no: Dictionary = {
     ],
   },
   about: {
-    eyebrow: "Om meg",
+    eyebrow: "Om Skailand Consulting",
     title: "Aslak Frafjord Skailand",
     paragraphs: [
-      "Jeg er senior frontend-utvikler fra Rogaland og driver Skailand Consulting fra Hundvåg i Stavanger. Gjennom mange år med web-TV, dekodere og mobilapper har jeg lært at gode løsninger er raske, enkle og tilgjengelige.",
-      "Jeg er utdannet dataingeniør og bruker moderne AI-verktøy for å jobbe raskere – uten å gå på akkord med kvalitet og detaljer.",
+      "Skailand Consulting drives av Aslak Frafjord Skailand, senior frontend-utvikler fra Rogaland, med base på Hundvåg i Stavanger. Mange år med web-TV, dekodere og mobilapper har vist at gode løsninger er raske, enkle og tilgjengelige.",
+      "Aslak er utdannet dataingeniør og bruker moderne AI-verktøy for å jobbe raskere – uten å gå på akkord med kvalitet og detaljer.",
     ],
     facts: [
       { label: "Fokus", value: "React, Next.js, TypeScript" },
@@ -195,7 +195,7 @@ const no: Dictionary = {
   contact: {
     eyebrow: "Kontakt",
     title: "Har du et prosjekt i tankene?",
-    text: "Send en melding, så svarer jeg så fort jeg kan. Første samtale er alltid uforpliktende.",
+    text: "Send en melding, så får du svar så fort som mulig. Første samtale er alltid uforpliktende.",
     email: "E-post",
     phone: "Telefon",
     form: {
@@ -205,9 +205,9 @@ const no: Dictionary = {
       messagePlaceholder: "Fortell kort om prosjektet ditt …",
       submit: "Send melding",
       sending: "Sender …",
-      note: "Jeg svarer vanligvis innen én virkedag.",
+      note: "Du får vanligvis svar innen én virkedag.",
       sentTitle: "Takk for meldingen!",
-      sentText: "Jeg tar kontakt så snart jeg kan.",
+      sentText: "Vi tar kontakt så snart som mulig.",
       error: "Noe gikk galt. Send gjerne en e-post direkte til",
     },
   },
@@ -237,9 +237,9 @@ const en: Dictionary = {
   hero: {
     eyebrow: "Web design · Development · Digital craft",
     title: "Digital experiences, thoughtfully built.",
-    text: "Skailand Consulting creates fast, accessible and highly visible websites for businesses that want to be found and win enquiries. I'm a frontend developer and take you from idea to launch – and beyond.",
+    text: "Skailand Consulting creates fast, accessible and highly visible websites for businesses that want to be found and win enquiries. Skailand Consulting takes you from idea to launch – and beyond.",
     cta: "Let's talk",
-    secondary: "Explore my work",
+    secondary: "Explore our work",
     illustration:
       "Engraved landscape illustration of Norwegian mountains, a fjord and spruce forest with fine network lines.",
   },
@@ -247,7 +247,7 @@ const en: Dictionary = {
     eyebrow: "Services",
     title: "Everything you need for a website that works.",
     intro:
-      "From first sketch to operations. I build what I'd be proud to own myself: effortless for visitors, easy for you to maintain.",
+      "From first sketch to operations. Solutions built to last: effortless for visitors, easy for you to maintain.",
     items: [
       {
         title: "Websites and web shops",
@@ -263,14 +263,14 @@ const en: Dictionary = {
       },
       {
         title: "Consulting and frontend help",
-        text: "Does your team need a senior frontend developer? I take on assignments in React, TypeScript and web architecture.",
+        text: "Does your team need a senior frontend developer? Skailand Consulting takes on assignments in React, TypeScript and web architecture.",
       },
     ],
   },
   work: {
     eyebrow: "Selected work",
-    title: "Websites I've built.",
-    intro: "A selection of projects for clients and my own initiatives.",
+    title: "Websites delivered by Skailand Consulting.",
+    intro: "A selection of client projects and in-house initiatives.",
     visit: "Visit website",
     items: [
       {
@@ -304,7 +304,7 @@ const en: Dictionary = {
     ],
   },
   process: {
-    eyebrow: "How I work",
+    eyebrow: "How we work",
     title: "Simple, clear and no surprises.",
     steps: [
       {
@@ -317,7 +317,7 @@ const en: Dictionary = {
       },
       {
         title: "Launch",
-        text: "I handle domain, hosting and everything technical.",
+        text: "Skailand Consulting handles domain, hosting and everything technical.",
       },
       {
         title: "Ongoing support",
@@ -326,11 +326,11 @@ const en: Dictionary = {
     ],
   },
   about: {
-    eyebrow: "About",
+    eyebrow: "About Skailand Consulting",
     title: "Aslak Frafjord Skailand",
     paragraphs: [
-      "I'm a senior frontend developer from Rogaland, running Skailand Consulting from Hundvåg in Stavanger. Years of work on web TV, set-top boxes and mobile apps taught me that good solutions are fast, simple and accessible.",
-      "I'm a trained computer engineer and I use modern AI tools to work faster – without compromising on quality and detail.",
+      "Skailand Consulting is run by Aslak Frafjord Skailand, a senior frontend developer from Rogaland, based in Hundvåg, Stavanger. Years of work on web TV, set-top boxes and mobile apps have shown that good solutions are fast, simple and accessible.",
+      "Aslak is a trained computer engineer and uses modern AI tools to work faster – without compromising on quality and detail.",
     ],
     facts: [
       { label: "Focus", value: "React, Next.js, TypeScript" },
@@ -342,20 +342,20 @@ const en: Dictionary = {
   contact: {
     eyebrow: "Contact",
     title: "Have a project in mind?",
-    text: "Send a message and I'll get back to you as soon as I can. The first conversation is always free of obligation.",
+    text: "Send a message and you will hear back as soon as possible. The first conversation is always free of obligation.",
     email: "Email",
     phone: "Phone",
     form: {
       name: "Name",
       email: "Email",
       message: "What do you need help with?",
-      messagePlaceholder: "Tell me briefly about your project …",
+      messagePlaceholder: "Tell us briefly about your project …",
       submit: "Send message",
       sending: "Sending …",
-      note: "I usually reply within one business day.",
+      note: "You will usually get a reply within one business day.",
       sentTitle: "Thanks for your message!",
-      sentText: "I will get back to you as soon as I can.",
-      error: "Something went wrong. Please email me directly at",
+      sentText: "We will get back to you as soon as possible.",
+      error: "Something went wrong. Please email us directly at",
     },
   },
   footer: {
