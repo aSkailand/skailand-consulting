@@ -186,7 +186,8 @@ const no: Dictionary = {
       "Aslak er utdannet dataingeniør og jobber siden 2025 som fullstack-utvikler i Equinor. I Skailand Consulting brukes moderne AI-verktøy for å jobbe raskere – uten å gå på akkord med kvalitet og detaljer.",
     ],
     facts: [
-      { label: "Fokus", value: "React, Next.js, TypeScript" },
+      { label: "Fokus", value: "Fullstack · React, Next.js, TypeScript" },
+      { label: "Bakgrunn", value: "Lyse, Altibox, Equinor" },
       { label: "Utdanning", value: "Bachelor dataingeniør, UiA" },
       { label: "Base", value: "Stavanger" },
       { label: "Språk", value: "Norsk og engelsk" },
@@ -333,7 +334,8 @@ const en: Dictionary = {
       "Aslak is a trained computer engineer and has worked as a full-stack developer at Equinor since 2025. Skailand Consulting uses modern AI tools to work faster – without compromising on quality and detail.",
     ],
     facts: [
-      { label: "Focus", value: "React, Next.js, TypeScript" },
+      { label: "Focus", value: "Full-stack · React, Next.js, TypeScript" },
+      { label: "Background", value: "Lyse, Altibox, Equinor" },
       { label: "Education", value: "BSc Computer Engineering, UiA" },
       { label: "Based in", value: "Stavanger" },
       { label: "Languages", value: "Norwegian and English" },
