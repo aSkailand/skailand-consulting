@@ -144,7 +144,7 @@ const no: Dictionary = {
         name: "Bjødna Tore",
         kind: "Nettside",
         text: "Visuell og enkel nettside bygget i Wix.",
-        href: "https://bjodna-tore.no",
+        href: "https://www.bjodnatore.no",
         stack: "Wix",
       },
       {
@@ -291,7 +291,7 @@ const en: Dictionary = {
         name: "Bjødna Tore",
         kind: "Website",
         text: "A visual, straightforward website built in Wix.",
-        href: "https://bjodna-tore.no",
+        href: "https://www.bjodnatore.no",
         stack: "Wix",
       },
       {
