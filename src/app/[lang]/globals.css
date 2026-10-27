@@ -628,6 +628,7 @@ ul {
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
+.contact-form input:not([type="hidden"]),
 .contact-form textarea {
   width: 100%;
   font: inherit;
@@ -638,6 +639,22 @@ ul {
   border: 1px solid var(--color-weathered-stone);
   border-radius: 3px;
   resize: vertical;
+}
+.contact-form input:focus-visible,
+.contact-form textarea:focus-visible {
+  outline: 2px solid var(--color-terracotta-light);
+  outline-offset: 2px;
+}
+.contact-form button[disabled] {
+  opacity: 0.7;
+  cursor: progress;
+}
+.contact-form .honeypot {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 .note {
   margin: 0.8rem 0 0;

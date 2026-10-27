@@ -56,11 +56,16 @@ export type Dictionary = {
     email: string;
     phone: string;
     form: {
+      name: string;
+      email: string;
       message: string;
       messagePlaceholder: string;
       submit: string;
+      sending: string;
       note: string;
-      subject: string;
+      sentTitle: string;
+      sentText: string;
+      error: string;
     };
   };
   footer: { rights: string; org: string; location: string };
@@ -193,11 +198,16 @@ const no: Dictionary = {
     email: "E-post",
     phone: "Telefon",
     form: {
+      name: "Navn",
+      email: "E-post",
       message: "Hva trenger du hjelp med?",
       messagePlaceholder: "Fortell kort om prosjektet ditt …",
-      submit: "Send e-post",
-      note: "Knappen åpner e-postprogrammet ditt med meldingen ferdig utfylt.",
-      subject: "Henvendelse fra Skailand Consulting",
+      submit: "Send melding",
+      sending: "Sender …",
+      note: "Jeg svarer vanligvis innen én virkedag.",
+      sentTitle: "Takk for meldingen!",
+      sentText: "Jeg tar kontakt så snart jeg kan.",
+      error: "Noe gikk galt. Send gjerne en e-post direkte til",
     },
   },
   footer: {
@@ -334,11 +344,16 @@ const en: Dictionary = {
     email: "Email",
     phone: "Phone",
     form: {
+      name: "Name",
+      email: "Email",
       message: "What do you need help with?",
       messagePlaceholder: "Tell me briefly about your project …",
-      submit: "Send email",
-      note: "The button opens your email app with the message pre-filled.",
-      subject: "Enquiry from Skailand Consulting",
+      submit: "Send message",
+      sending: "Sending …",
+      note: "I usually reply within one business day.",
+      sentTitle: "Thanks for your message!",
+      sentText: "I will get back to you as soon as I can.",
+      error: "Something went wrong. Please email me directly at",
     },
   },
   footer: {

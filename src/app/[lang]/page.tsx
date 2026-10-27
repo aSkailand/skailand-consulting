@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Landscape, Ornament, Panorama } from "@/components/Landscape";
+import { ContactForm } from "@/components/ContactForm";
 import { Logo, Wordmark } from "@/components/Logo";
 import { dictionaries } from "@/lib/content";
 import { contact, hasLocale } from "@/lib/i18n";
@@ -170,24 +171,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
                 </li>
               </ul>
             </div>
-            <form action={`mailto:${contact.email}`} method="get" className="contact-form">
-              <input type="hidden" name="subject" value={t.contact.form.subject} />
-              <label htmlFor="body">{t.contact.form.message}</label>
-              <textarea
-                id="body"
-                name="body"
-                rows={6}
-                required
-                placeholder={t.contact.form.messagePlaceholder}
-                aria-describedby="form-note"
-              />
-              <button type="submit" className="button button-light">
-                {t.contact.form.submit}
-              </button>
-              <p id="form-note" className="note">
-                {t.contact.form.note}
-              </p>
-            </form>
+            <ContactForm t={t.contact.form} email={contact.email} lang={lang} />
           </div>
         </section>
       </main>
