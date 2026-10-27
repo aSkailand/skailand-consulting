@@ -1,0 +1,351 @@
+import type { Locale } from "./i18n";
+
+export type Dictionary = {
+  meta: { title: string; description: string; ogLocale: string };
+  skip: string;
+  nav: {
+    services: string;
+    work: string;
+    about: string;
+    contact: string;
+    label: string;
+    switchTo: string;
+  };
+  hero: {
+    eyebrow: string;
+    title: string;
+    text: string;
+    cta: string;
+    secondary: string;
+    illustration: string;
+  };
+  services: {
+    eyebrow: string;
+    title: string;
+    intro: string;
+    items: { title: string; text: string }[];
+  };
+  work: {
+    eyebrow: string;
+    title: string;
+    intro: string;
+    visit: string;
+    items: {
+      name: string;
+      kind: string;
+      text: string;
+      href?: string;
+      stack: string;
+    }[];
+  };
+  process: {
+    eyebrow: string;
+    title: string;
+    steps: { title: string; text: string }[];
+  };
+  about: {
+    eyebrow: string;
+    title: string;
+    paragraphs: string[];
+    facts: { label: string; value: string }[];
+  };
+  contact: {
+    eyebrow: string;
+    title: string;
+    text: string;
+    email: string;
+    phone: string;
+    form: {
+      message: string;
+      messagePlaceholder: string;
+      submit: string;
+      note: string;
+      subject: string;
+    };
+  };
+  footer: { rights: string; org: string; location: string };
+};
+
+const no: Dictionary = {
+  meta: {
+    title: "Skailand Consulting – nettsider og webutvikling i Rogaland",
+    description:
+      "Skailand Consulting lager raske, tilgjengelige og søkemotoroptimaliserte nettsider for små og mellomstore bedrifter. Frontend-ekspertise fra Hundvåg, Stavanger. Ta kontakt for en uforpliktende prat.",
+    ogLocale: "nb_NO",
+  },
+  skip: "Hopp til hovedinnhold",
+  nav: {
+    services: "Tjenester",
+    work: "Arbeid",
+    about: "Om meg",
+    contact: "Kontakt",
+    label: "Hovednavigasjon",
+    switchTo: "English",
+  },
+  hero: {
+    eyebrow: "Nettsider · Utvikling · Digitalt håndverk",
+    title: "Digitale opplevelser, bygget med omtanke.",
+    text: "Skailand Consulting lager raske, tilgjengelige og godt synlige nettsider for bedrifter som vil bli funnet og få henvendelser. Jeg er frontend-utvikler og følger deg fra idé til lansering – og videre.",
+    cta: "La oss snakke",
+    secondary: "Se arbeidet mitt",
+    illustration:
+      "Gravert landskapsillustrasjon av norske fjell, fjord og granskog med tynne nettverkslinjer.",
+  },
+  services: {
+    eyebrow: "Tjenester",
+    title: "Alt du trenger for en nettside som fungerer.",
+    intro:
+      "Fra første skisse til drift. Jeg bygger det jeg selv ville vært stolt av å eie: lettvint for besøkende, enkelt for deg å vedlikeholde.",
+    items: [
+      {
+        title: "Nettsider og nettbutikk",
+        text: "Skreddersydde nettsider i Next.js og React, eller i et CMS du kan oppdatere selv. Responsive fra dag én.",
+      },
+      {
+        title: "Ytelse og tilgjengelighet",
+        text: "Raske sider som følger WCAG, med gode Core Web Vitals. Bra for brukerne – og for Google.",
+      },
+      {
+        title: "SEO og synlighet",
+        text: "Teknisk SEO, strukturerte data, Google Business-profil og innhold som gjør at kundene finner deg lokalt.",
+      },
+      {
+        title: "Rådgivning og frontend-hjelp",
+        text: "Trenger teamet ditt en senior frontend-utvikler? Jeg tar oppdrag innen React, TypeScript og webarkitektur.",
+      },
+    ],
+  },
+  work: {
+    eyebrow: "Utvalgt arbeid",
+    title: "Nettsider jeg har laget.",
+    intro: "Et utvalg av prosjekter for kunder og egne initiativ.",
+    visit: "Besøk nettstedet",
+    items: [
+      {
+        name: "Rogaland Eiendomstakst",
+        kind: "Kundeprosjekt",
+        text: "Nettside for eiendomstakst i Rogaland, laget for å skape tillit og gjøre det enkelt å ta kontakt.",
+        href: "https://rogaland-eiendomstakst.no",
+        stack: "Nettside · SEO",
+      },
+      {
+        name: "Frafjordelva",
+        kind: "Kundeprosjekt",
+        text: "Nettside med innholdsstyring i Sanity, slik at kunden enkelt kan oppdatere innholdet selv.",
+        stack: "Next.js · Sanity",
+      },
+      {
+        name: "Bjødna Tore",
+        kind: "Nettside",
+        text: "Visuell og enkel nettside bygget i Wix.",
+        href: "https://bjodna-tore.no",
+        stack: "Wix",
+      },
+      {
+        name: "Altibox TV",
+        kind: "Bidragsyter",
+        text: "Har bidratt til utviklingen av web-TV-løsningen tv.altibox.no.",
+        href: "https://tv.altibox.no",
+        stack: "React · TypeScript",
+      },
+    ],
+  },
+  process: {
+    eyebrow: "Slik jobber jeg",
+    title: "Enkelt, tydelig og uten overraskelser.",
+    steps: [
+      {
+        title: "Samtale",
+        text: "Vi snakker om mål, målgruppe og budsjett. Uforpliktende og gratis.",
+      },
+      {
+        title: "Design og bygg",
+        text: "Du ser fremdriften underveis og kan gi tilbakemeldinger tidlig.",
+      },
+      {
+        title: "Lansering",
+        text: "Jeg tar hånd om domene, hosting og alt det tekniske.",
+      },
+      {
+        title: "Videre støtte",
+        text: "Vedlikehold og forbedringer etter behov. Du har én kontaktperson.",
+      },
+    ],
+  },
+  about: {
+    eyebrow: "Om meg",
+    title: "Aslak Frafjord Skailand",
+    paragraphs: [
+      "Jeg er senior frontend-utvikler fra Rogaland og driver Skailand Consulting fra Hundvåg i Stavanger. Gjennom mange år med web-TV, dekodere og mobilapper har jeg lært at gode løsninger er raske, enkle og tilgjengelige.",
+      "Jeg er utdannet dataingeniør og bruker moderne AI-verktøy for å jobbe raskere – uten å gå på akkord med kvalitet og detaljer.",
+    ],
+    facts: [
+      { label: "Fokus", value: "React, Next.js, TypeScript" },
+      { label: "Utdanning", value: "Bachelor dataingeniør, UiA" },
+      { label: "Base", value: "Hundvåg, Stavanger" },
+      { label: "Språk", value: "Norsk og engelsk" },
+    ],
+  },
+  contact: {
+    eyebrow: "Kontakt",
+    title: "Har du et prosjekt i tankene?",
+    text: "Send en melding, så svarer jeg så fort jeg kan. Første samtale er alltid uforpliktende.",
+    email: "E-post",
+    phone: "Telefon",
+    form: {
+      message: "Hva trenger du hjelp med?",
+      messagePlaceholder: "Fortell kort om prosjektet ditt …",
+      submit: "Send e-post",
+      note: "Knappen åpner e-postprogrammet ditt med meldingen ferdig utfylt.",
+      subject: "Henvendelse fra Skailand Consulting",
+    },
+  },
+  footer: {
+    rights: "Alle rettigheter reservert.",
+    org: "Enkeltpersonforetak",
+    location: "Hundvåg, Stavanger",
+  },
+};
+
+const en: Dictionary = {
+  meta: {
+    title: "Skailand Consulting – web design and development in Norway",
+    description:
+      "Skailand Consulting builds fast, accessible and SEO-optimised websites for small and mid-sized businesses. Frontend expertise from Hundvåg, Stavanger. Get in touch for a no-obligation chat.",
+    ogLocale: "en_GB",
+  },
+  skip: "Skip to main content",
+  nav: {
+    services: "Services",
+    work: "Work",
+    about: "About",
+    contact: "Contact",
+    label: "Main navigation",
+    switchTo: "Norsk",
+  },
+  hero: {
+    eyebrow: "Web design · Development · Digital craft",
+    title: "Digital experiences, thoughtfully built.",
+    text: "Skailand Consulting creates fast, accessible and highly visible websites for businesses that want to be found and win enquiries. I'm a frontend developer and take you from idea to launch – and beyond.",
+    cta: "Let's talk",
+    secondary: "Explore my work",
+    illustration:
+      "Engraved landscape illustration of Norwegian mountains, a fjord and spruce forest with fine network lines.",
+  },
+  services: {
+    eyebrow: "Services",
+    title: "Everything you need for a website that works.",
+    intro:
+      "From first sketch to operations. I build what I'd be proud to own myself: effortless for visitors, easy for you to maintain.",
+    items: [
+      {
+        title: "Websites and web shops",
+        text: "Tailor-made websites in Next.js and React, or in a CMS you can update yourself. Responsive from day one.",
+      },
+      {
+        title: "Performance and accessibility",
+        text: "Fast pages that follow WCAG, with strong Core Web Vitals. Good for users – and for Google.",
+      },
+      {
+        title: "SEO and visibility",
+        text: "Technical SEO, structured data, Google Business profile and content that helps customers find you locally.",
+      },
+      {
+        title: "Consulting and frontend help",
+        text: "Does your team need a senior frontend developer? I take on assignments in React, TypeScript and web architecture.",
+      },
+    ],
+  },
+  work: {
+    eyebrow: "Selected work",
+    title: "Websites I've built.",
+    intro: "A selection of projects for clients and my own initiatives.",
+    visit: "Visit website",
+    items: [
+      {
+        name: "Rogaland Eiendomstakst",
+        kind: "Client project",
+        text: "Website for property valuation in Rogaland, built to create trust and make it easy to get in touch.",
+        href: "https://rogaland-eiendomstakst.no",
+        stack: "Website · SEO",
+      },
+      {
+        name: "Frafjordelva",
+        kind: "Client project",
+        text: "Website with content managed in Sanity, so the client can easily update content on their own.",
+        stack: "Next.js · Sanity",
+      },
+      {
+        name: "Bjødna Tore",
+        kind: "Website",
+        text: "A visual, straightforward website built in Wix.",
+        href: "https://bjodna-tore.no",
+        stack: "Wix",
+      },
+      {
+        name: "Altibox TV",
+        kind: "Contributor",
+        text: "Contributed to the development of the web TV service tv.altibox.no.",
+        href: "https://tv.altibox.no",
+        stack: "React · TypeScript",
+      },
+    ],
+  },
+  process: {
+    eyebrow: "How I work",
+    title: "Simple, clear and no surprises.",
+    steps: [
+      {
+        title: "Conversation",
+        text: "We discuss goals, audience and budget. No obligation, no cost.",
+      },
+      {
+        title: "Design and build",
+        text: "You follow progress along the way and can give feedback early.",
+      },
+      {
+        title: "Launch",
+        text: "I handle domain, hosting and everything technical.",
+      },
+      {
+        title: "Ongoing support",
+        text: "Maintenance and improvements as needed. One point of contact.",
+      },
+    ],
+  },
+  about: {
+    eyebrow: "About",
+    title: "Aslak Frafjord Skailand",
+    paragraphs: [
+      "I'm a senior frontend developer from Rogaland, running Skailand Consulting from Hundvåg in Stavanger. Years of work on web TV, set-top boxes and mobile apps taught me that good solutions are fast, simple and accessible.",
+      "I'm a trained computer engineer and I use modern AI tools to work faster – without compromising on quality and detail.",
+    ],
+    facts: [
+      { label: "Focus", value: "React, Next.js, TypeScript" },
+      { label: "Education", value: "BSc Computer Engineering, UiA" },
+      { label: "Based in", value: "Hundvåg, Stavanger" },
+      { label: "Languages", value: "Norwegian and English" },
+    ],
+  },
+  contact: {
+    eyebrow: "Contact",
+    title: "Have a project in mind?",
+    text: "Send a message and I'll get back to you as soon as I can. The first conversation is always free of obligation.",
+    email: "Email",
+    phone: "Phone",
+    form: {
+      message: "What do you need help with?",
+      messagePlaceholder: "Tell me briefly about your project …",
+      submit: "Send email",
+      note: "The button opens your email app with the message pre-filled.",
+      subject: "Enquiry from Skailand Consulting",
+    },
+  },
+  footer: {
+    rights: "All rights reserved.",
+    org: "Sole proprietorship",
+    location: "Hundvåg, Stavanger",
+  },
+};
+
+export const dictionaries: Record<Locale, Dictionary> = { no, en };
