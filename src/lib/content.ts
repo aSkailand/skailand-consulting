@@ -75,7 +75,7 @@ const no: Dictionary = {
   meta: {
     title: "Skailand Consulting – nettsider og webutvikling i Rogaland",
     description:
-      "Skailand Consulting lager raske, tilgjengelige og søkemotoroptimaliserte nettsider for små og mellomstore bedrifter. Frontend-ekspertise fra Hundvåg, Stavanger. Ta kontakt for en uforpliktende prat.",
+      "Skailand Consulting lager raske, tilgjengelige og søkemotoroptimaliserte nettsider for små og mellomstore bedrifter. Frontend-ekspertise fra Stavanger. Ta kontakt for en uforpliktende prat.",
     ogLocale: "nb_NO",
   },
   skip: "Hopp til hovedinnhold",
@@ -182,13 +182,13 @@ const no: Dictionary = {
     eyebrow: "Om Skailand Consulting",
     title: "Aslak Frafjord Skailand",
     paragraphs: [
-      "Skailand Consulting drives av Aslak Frafjord Skailand, senior utvikler fra Rogaland, med base på Hundvåg i Stavanger. Mange år med digitale produkter for store brukergrupper har vist at gode løsninger er raske, enkle og tilgjengelige.",
+      "Skailand Consulting drives av Aslak Frafjord Skailand, senior utvikler fra Rogaland, med base i Stavanger. Mange år med digitale produkter for store brukergrupper har vist at gode løsninger er raske, enkle og tilgjengelige.",
       "Aslak er utdannet dataingeniør og jobber siden 2025 som fullstack-utvikler i Equinor. I Skailand Consulting brukes moderne AI-verktøy for å jobbe raskere – uten å gå på akkord med kvalitet og detaljer.",
     ],
     facts: [
       { label: "Fokus", value: "React, Next.js, TypeScript" },
       { label: "Utdanning", value: "Bachelor dataingeniør, UiA" },
-      { label: "Base", value: "Hundvåg, Stavanger" },
+      { label: "Base", value: "Stavanger" },
       { label: "Språk", value: "Norsk og engelsk" },
     ],
   },
@@ -214,7 +214,7 @@ const no: Dictionary = {
   footer: {
     rights: "Alle rettigheter reservert.",
     org: "Enkeltpersonforetak",
-    location: "Hundvåg, Stavanger",
+    location: "Stavanger",
   },
 };
 
@@ -222,7 +222,7 @@ const en: Dictionary = {
   meta: {
     title: "Skailand Consulting – web design and development in Norway",
     description:
-      "Skailand Consulting builds fast, accessible and SEO-optimised websites for small and mid-sized businesses. Frontend expertise from Hundvåg, Stavanger. Get in touch for a no-obligation chat.",
+      "Skailand Consulting builds fast, accessible and SEO-optimised websites for small and mid-sized businesses. Frontend expertise from Stavanger. Get in touch for a no-obligation chat.",
     ogLocale: "en_GB",
   },
   skip: "Skip to main content",
@@ -329,13 +329,13 @@ const en: Dictionary = {
     eyebrow: "About Skailand Consulting",
     title: "Aslak Frafjord Skailand",
     paragraphs: [
-      "Skailand Consulting is run by Aslak Frafjord Skailand, a senior developer from Rogaland, based in Hundvåg, Stavanger. Years of building digital products for large audiences have shown that good solutions are fast, simple and accessible.",
+      "Skailand Consulting is run by Aslak Frafjord Skailand, a senior developer from Rogaland, based in Stavanger. Years of building digital products for large audiences have shown that good solutions are fast, simple and accessible.",
       "Aslak is a trained computer engineer and has worked as a full-stack developer at Equinor since 2025. Skailand Consulting uses modern AI tools to work faster – without compromising on quality and detail.",
     ],
     facts: [
       { label: "Focus", value: "React, Next.js, TypeScript" },
       { label: "Education", value: "BSc Computer Engineering, UiA" },
-      { label: "Based in", value: "Hundvåg, Stavanger" },
+      { label: "Based in", value: "Stavanger" },
       { label: "Languages", value: "Norwegian and English" },
     ],
   },
@@ -361,7 +361,7 @@ const en: Dictionary = {
   footer: {
     rights: "All rights reserved.",
     org: "Sole proprietorship",
-    location: "Hundvåg, Stavanger",
+    location: "Stavanger",
   },
 };
 

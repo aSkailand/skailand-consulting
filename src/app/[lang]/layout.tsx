@@ -68,7 +68,7 @@ export default async function RootLayout({
     founder: { "@type": "Person", name: "Aslak Frafjord Skailand" },
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Hundvåg",
+      addressLocality: "Stavanger",
       addressRegion: "Rogaland",
       addressCountry: "NO",
     },
