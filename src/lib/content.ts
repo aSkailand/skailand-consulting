@@ -182,8 +182,8 @@ const no: Dictionary = {
     eyebrow: "Om Skailand Consulting",
     title: "Aslak Frafjord Skailand",
     paragraphs: [
-      "Skailand Consulting drives av Aslak Frafjord Skailand, senior frontend-utvikler fra Rogaland, med base på Hundvåg i Stavanger. Mange år med web-TV, dekodere og mobilapper har vist at gode løsninger er raske, enkle og tilgjengelige.",
-      "Aslak er utdannet dataingeniør og bruker moderne AI-verktøy for å jobbe raskere – uten å gå på akkord med kvalitet og detaljer.",
+      "Skailand Consulting drives av Aslak Frafjord Skailand, senior utvikler fra Rogaland, med base på Hundvåg i Stavanger. Mange år med digitale produkter for store brukergrupper har vist at gode løsninger er raske, enkle og tilgjengelige.",
+      "Aslak er utdannet dataingeniør og jobber siden 2025 som fullstack-utvikler i Equinor. I Skailand Consulting brukes moderne AI-verktøy for å jobbe raskere – uten å gå på akkord med kvalitet og detaljer.",
     ],
     facts: [
       { label: "Fokus", value: "React, Next.js, TypeScript" },
@@ -329,8 +329,8 @@ const en: Dictionary = {
     eyebrow: "About Skailand Consulting",
     title: "Aslak Frafjord Skailand",
     paragraphs: [
-      "Skailand Consulting is run by Aslak Frafjord Skailand, a senior frontend developer from Rogaland, based in Hundvåg, Stavanger. Years of work on web TV, set-top boxes and mobile apps have shown that good solutions are fast, simple and accessible.",
-      "Aslak is a trained computer engineer and uses modern AI tools to work faster – without compromising on quality and detail.",
+      "Skailand Consulting is run by Aslak Frafjord Skailand, a senior developer from Rogaland, based in Hundvåg, Stavanger. Years of building digital products for large audiences have shown that good solutions are fast, simple and accessible.",
+      "Aslak is a trained computer engineer and has worked as a full-stack developer at Equinor since 2025. Skailand Consulting uses modern AI tools to work faster – without compromising on quality and detail.",
     ],
     facts: [
       { label: "Focus", value: "React, Next.js, TypeScript" },
