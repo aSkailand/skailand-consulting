@@ -6,7 +6,7 @@ export const hasLocale = (value: string): value is Locale =>
   (locales as readonly string[]).includes(value);
 
 export const siteUrl = (
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://skailand.no"
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://skailand-consulting.no"
 ).replace(/\/$/, "");
 
 export const contact = {
