@@ -137,6 +137,7 @@ const no: Dictionary = {
         name: "Frafjordelva",
         kind: "Kundeprosjekt",
         text: "Nettside med innholdsstyring i Sanity, slik at kunden enkelt kan oppdatere innholdet selv.",
+        href: "https://frafjordelva.netlify.app",
         stack: "Next.js · Sanity",
       },
       {
@@ -283,6 +284,7 @@ const en: Dictionary = {
         name: "Frafjordelva",
         kind: "Client project",
         text: "Website with content managed in Sanity, so the client can easily update content on their own.",
+        href: "https://frafjordelva.netlify.app",
         stack: "Next.js · Sanity",
       },
       {
